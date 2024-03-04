@@ -1,0 +1,6 @@
+Github Learning Session
+
+git init
+
+git remote add origin https://github.com/harshavardhanck123/git-learning.git -> this command tells where to store the file/folder
+

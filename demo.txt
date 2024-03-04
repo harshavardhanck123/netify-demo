@@ -4,3 +4,17 @@ git init
 
 git remote add origin https://github.com/harshavardhanck123/git-learning.git -> this command tells where to store the file/folder
 
+git fetch -v -> used to find where to download the repository
+
+git add . -> This will push my files to staging area
+
+git commit -m "message inside the double quotes" -> this command tells us that we need to store this in local repository
+
+git branch -M main -> This command used to change from master to main
+
+git push origin main -> This command pushes the code from the local to github repository
+
+git config --global user.email "mailID" -> This clears the authentication error in case of unknown user
+
+git config --global user.name "github username" 
+

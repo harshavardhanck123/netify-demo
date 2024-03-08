@@ -1,0 +1,14 @@
+Hello
+
+This is new
+
+
+xml-http request are used to interact with the server via API
+
+4 steps
+
+1 -> create XHR object
+2 ->
+
+
+Event is certain set of operation  for eg when a button is pressed an event take place

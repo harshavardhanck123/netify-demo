@@ -6,7 +6,10 @@ request.onload=function(){
     console.log(res)
     //console.log(res[0].population)
     for(var i=0;i<res.length;i++)
-    {
+    { 
         console.log(res[i].name.common+","+res[i].region)
+        console.log("Flag"+" "+res[i].flag)
+        console.log("Sub-Region"+" "+res[i].subregion)
+        console.log("Population"+" "+res[i].population)
     }
 }

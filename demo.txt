@@ -1,14 +1,4 @@
-Hello
+The HTML file contains the basic template to run the script.js file in local server
 
-This is new
+The script.js file contains the code for the first 3 questions for Day-03 Task
 
-
-xml-http request are used to interact with the server via API
-
-4 steps
-
-1 -> create XHR object
-2 ->
-
-
-Event is certain set of operation  for eg when a button is pressed an event take place

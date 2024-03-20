@@ -30,38 +30,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    table, th, td {
-        border: 1px solid black;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Data Table</title>
+<style>
+    table {
+        width: 100%;
         border-collapse: collapse;
-      }
-    </style>
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: lightgray;
+    }
+</style>
 </head>
 <body>
-    <table style="width:100%">
-        <tr>
-          <th>Firstname</th>
-          <th>Lastname</th> 
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-      </table>
+
+<h2>Health Data Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>State of Health</th>
+      <th colspan="2">Fasting Value</th>
+      <th colspan="2">After Eating (2 hours)</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Minimum</th>
+      <th>Normal</th>
+      <th>Before</th>
+      <th>After</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Healthy</td>
+      <td>80 mg/dL</td>
+      <td>100 mg/dL</td>
+      <td>120 mg/dL</td>
+      <td>Less than 140 mg/dL</td>
+    </tr>
+    <tr>
+      <td>Pre-Diabetic</td>
+      <td>100 mg/dL</td>
+      <td>125 mg/dL</td>
+      <td>140 mg/dL</td>
+      <td>140-199 mg/dL</td>
+    </tr>
+    <tr>
+      <td>Diabetic</td>
+      <td>126 mg/dL</td>
+      <td>Above 126 mg/dL</td>
+      <td>More than 200 mg/dL</td>
+      <td>More than 200 mg/dL</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
